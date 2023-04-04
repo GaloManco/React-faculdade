@@ -1,19 +1,22 @@
-
 import './App.css';
-import JsxComponent from './components/jsx.component';
+import Topo from "./components/Pagina/Topo";
+import Principal from './components/Pagina/principal';
+import Rodape from './components/Pagina/rodape';
+import BarraLateral from './components/Pagina/barraLateral';
+
 
 function App() {
-
-
-
 
 
     
     return (
       <div className="App">
+      
+        <Topo name='jonas'/>
+        <Principal />
+        <BarraLateral />
+        <Rodape />
 
-        <h1>{'teste'}</h1>
-        <JsxComponent />
        
       </div>
 
