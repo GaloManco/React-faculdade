@@ -5,6 +5,7 @@ import ClassUsuario from './ClassUsuario';
 // import ExibirContexto from './ExibirContexto';
 import GerarElementos from './GerarElementos';
 import Formulario from './Formulario';
+import Seletor from './Seletor'
 
 function Principal(){
     return (
@@ -21,6 +22,8 @@ function Principal(){
                 <hr></hr>
 
                 <Formulario />
+                <hr></hr>
+                <Seletor />
                 <hr></hr>
                 <section className="principal">
                     Coluna Principal
